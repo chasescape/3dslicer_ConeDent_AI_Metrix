@@ -179,7 +179,6 @@ class TMambaSegWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
 
         self.layout.addStretch(1)
 
-
     def onInputFileButtonClicked(self):
         file_dialog = qt.QFileDialog()
         file_dialog.setFileMode(qt.QFileDialog.ExistingFiles)
@@ -215,7 +214,6 @@ class TMambaSegWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
         else:
             slicer.util.errorDisplay("No output directory selected.")
             print("No output directory selected.")
-
 
     def runInference(self, input_file: str, output_dir: str, log_widget: qt.QTextEdit) -> None:
         try:
