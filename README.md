@@ -2,11 +2,9 @@
 **—— T-Mamba 牙科 CBCT 分割插件（基于 3D Slicer）**
 
 ---
-## 📹 插件演示视频
+### 📹 插件演示视频
 
-👉 https://github.com/chasescape/3dslicer_ConeDent_AI_Metrix/edit/main/5月19日.mp4
-
-> 包含插件加载、CBCT 文件导入、推理流程与结果展示。
+👉 [点击此处观看演示视频](./demo_20240519.mp4)
 
 
 ## 一、🌱 环境要求
